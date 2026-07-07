@@ -11,3 +11,4 @@ locals {
 output "storage_type" {
     value = local.storage_type
 }
+
