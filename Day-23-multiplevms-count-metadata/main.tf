@@ -48,6 +48,7 @@ resource "azurerm_windows_virtual_machine" "vm" {
   size                  = "Standard_B1s"
   admin_username        = "adminuser"
   admin_password        = "Password1234!"
+  #source_image_id = "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/multiplevm-rg/providers/Microsoft.Compute/images/mycustomimage"
   source_image_reference {
     publisher = "MicrosoftWindowsServer"
     offer     = "WindowsServer"
